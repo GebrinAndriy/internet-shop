@@ -1,0 +1,86 @@
+.type-filter {
+  margin-top: 23px;
+}
+
+.type-filter__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.type-filter__list__text {
+  align-items: baseline;
+  color: #787885;
+}
+
+.type-filter__list__item {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.type-filter__icon {
+  fill: #9696a0;
+  margin-bottom: 5px;
+}
+
+.type-filter .icon1 {
+  width: 20px;
+  height: 18px;
+}
+
+.type-filter .icon2 {
+  width: 16px;
+  height: 18px;
+}
+
+.type-filter .icon3 {
+  width: 19px;
+  height: 18px;
+}
+
+.type-filter .icon4 {
+  width: 18px;
+  height: 18px;
+}
+
+.type-filter .icon5 {
+  width: 18px;
+  height: 18px;
+}
+
+.type-filter .icon6 {
+  width: 19px;
+  height: 18px;
+}
+
+.type-filter .icon7 {
+  width: 16px;
+  height: 18px;
+}
+
+.type-filter .icon8 {
+  width: 11px;
+  height: 18px;
+}
+
+.type-filter .icon9 {
+  width: 17px;
+  height: 18px;
+}
+
+.type-filter .icon10 {
+  width: 19px;
+  height: 18px;
+}
+
+.type-filter .icon11 {
+  width: 20px;
+  height: 18px;
+}
+
+.type-filter .icon12 {
+  width: 22px;
+  height: 18px;
+}
+/*# sourceMappingURL=type-filter.css.map */

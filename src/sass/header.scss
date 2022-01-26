@@ -1,0 +1,152 @@
+.header {
+  align-items: center;
+  height: 80px;
+  display: flex;
+  &__logo {
+    display: flex;
+    &__letter {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(90deg, #2979ff 0%, #4c589e 100%);
+      color: #fff;
+      border-radius: 6px;
+      font-family: "Red Hat Display", sans-serif;
+      font-style: 400;
+      font-weight: 700;
+      font-size: 32px;
+      display: flex;
+      line-height: 1.13;
+      align-items: center;
+      justify-content: center;
+    }
+    &__name {
+      margin-left: 12px;
+      font-family: "Red Hat Display", sans-serif;
+      font-style: 400;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 1;
+    }
+  }
+  .btn-sell {
+    color: #5a5b6a;
+    margin-left: 38px;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.58;
+  }
+
+  .btn-reg {
+    font-style: 400;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.58;
+    color: #5a5b6a;
+    margin-left: 33px;
+  }
+  .icon-search {
+    fill: #787885;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+  }
+
+  .icon-clear {
+    position: absolute;
+    top: 19px;
+    right: 17px;
+    width: 14px;
+    height: 14px;
+    fill: #787885;
+  }
+
+  .user-img {
+    margin-left: 16px;
+    width: 40px;
+    height: 40px;
+  }
+  &__btn-consumer {
+    font-style: 400;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.58;
+    color: #2264d1;
+    margin-left: 30px;
+  }
+  &__btn-signin {
+    border: 1px solid #9dc2ff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 104px;
+    height: 40px;
+    color: #2264d1;
+    font-family: "Quicksand", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    background: #fff;
+    margin-left: 60px;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition-property: background, color;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      color: #fff;
+      background: #2264d1;
+    }
+  }
+  &__btn-mycart {
+    box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2),
+      0px 4px 8px rgba(41, 121, 255, 0.2);
+    border-radius: 4px;
+    width: 99px;
+    height: 40px;
+    color: #2264d1;
+    font-family: "Quicksand", sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    border: 0;
+    background: #fff;
+    margin-left: 21px;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition-property: background, color;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      color: #fff;
+      background: #2264d1;
+    }
+  }
+  &__input {
+    display: flex;
+    position: relative;
+    margin-left: 107px;
+    &__search {
+      width: 668px;
+      height: 48px;
+      background: #ededf0;
+      border-radius: 99px;
+      border: 0;
+      padding-left: 44px;
+      font-style: 400;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.58;
+      transition-property: border;
+      transition-timing-function: linear;
+      transition-duration: 200ms;
+      outline: none;
+    }
+    &__btn-clear:hover .icon-clear {
+      fill: #2979ff;
+    }
+  }
+}
